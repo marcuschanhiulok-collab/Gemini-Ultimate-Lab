@@ -27,8 +27,8 @@ const Sidebar: React.FC<SidebarProps> = ({ activeLab, onSelectLab }) => {
           <div 
             className="w-8 h-8 rounded-lg flex items-center justify-center font-bold text-white transition-colors duration-500 shadow-sm"
             style={{ backgroundColor: 'var(--primary)' }}
-          >G</div>
-          <span className="text-lg font-bold text-slate-900 dark:text-white">Ultimate Lab</span>
+          >M</div>
+          <span className="text-lg font-bold text-slate-900 dark:text-white">Marcus's AI Lab</span>
         </div>
         
         <div className="space-y-1">
@@ -51,10 +51,10 @@ const Sidebar: React.FC<SidebarProps> = ({ activeLab, onSelectLab }) => {
           ))}
         </div>
       </div>
-      
+           
       <div className="p-6 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 transition-colors duration-300">
         <div className="bg-slate-50 dark:bg-slate-900 rounded-xl p-4 text-[10px] text-slate-500 text-center font-medium">
-          Powered by Gemini 2.5 & 3 Models
+          Powered by Marcus's code
         </div>
       </div>
     </nav>
