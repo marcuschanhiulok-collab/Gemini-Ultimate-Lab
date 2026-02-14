@@ -1,0 +1,9 @@
+{
+  "name": "Gemini Ultimate Lab",
+  "description": "A comprehensive showcase of Google's Gemini models, including real-time voice, grounded search, maps integration, image generation with Imagen 3, video generation with Veo, and advanced content analysis.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
